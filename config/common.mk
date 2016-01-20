@@ -79,6 +79,13 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/du/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
+# Viper4Android
+PRODUCT_COPY_FILES += \
+   vendor/du/prebuilt/common/bin/audio_policy.sh:system/audio_policy.sh \
+   vendor/du/prebuilt/common/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
+   vendor/du/prebuilt/common/su.d/50viper.sh:system/su.d/50viper.sh \
+   vendor/du/prebuilt/common/app/Viper4Android/Viper4Android.apk:system/priv-app/Viper4Android/Viper4Android.apk
+
 # Versioning System
 ANDROID_VERSION = 6.0.1
 DU_VERSION = v10.3
