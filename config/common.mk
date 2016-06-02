@@ -81,9 +81,7 @@ PRODUCT_COPY_FILES += \
 
 # Viper4Android
 PRODUCT_COPY_FILES += \
-   vendor/du/prebuilt/common/bin/audio_policy.sh:system/audio_policy.sh \
    vendor/du/prebuilt/common/addon.d/95-LolliViPER.sh:system/addon.d/95-LolliViPER.sh \
-   vendor/du/prebuilt/common/su.d/50viper.sh:system/su.d/50viper.sh \
    vendor/du/prebuilt/common/app/Viper4Android/Viper4Android.apk:system/priv-app/Viper4Android/Viper4Android.apk
 
 # Versioning System
