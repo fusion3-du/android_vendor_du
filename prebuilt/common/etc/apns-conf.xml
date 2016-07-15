@@ -6686,6 +6686,7 @@
       user="internet"
       password="t-mobile"
       type="default,supl"
+      authtype="1"
   />
 
   <apn carrier="T-Mobile MK MMS"
